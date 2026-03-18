@@ -1,7 +1,7 @@
 services:
   - type: web
     name: exam-backend
-    env: docker
+    env: Java
     plan: free
     buildCommand: mvn clean install
     startCommand: java -jar target/*.jar
